@@ -1,0 +1,31 @@
+{
+  "name": "sanches",
+  "version": "1.0.0",
+  "description": "Sanchesverso",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettirt -write",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Pedro Sanches<contato@pedrosanches.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "framer-motion": "^6.3.12",
+    "next": "^12.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-next": "^12.1.6",
+    "prettier": "^2.7.1"
+  }
+}
