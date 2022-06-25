@@ -1,10 +1,22 @@
-import { Container, Box, Heading } from '@chakra-ui/react'
+import { 
+    Container, 
+    Box,
+    Heading, 
+    Image,
+    useColorModeValue
+ } from '@chakra-ui/react'
+
 
 const Page = () => {
     return (
         <Container>
-            <Box borderRadius="lg" bg="yellow" p={3} mb={6} align="center">
-            What&apos;s up? I&apos;m a mobile developer specializing in web3!
+            <Box 
+            borderRadius="lg" 
+            bg={useColorModeValue('whiteAlpha.500', 'whiteAplha.200')}
+            p={3} 
+            mb={6} 
+            align="center">
+                What&apos;s up? I&apos;m a mobile developer specializing in web3!
             </Box>
             <Box display={{ md: 'flex' }}>
                 <Box flexGrow={1}>
@@ -12,6 +24,23 @@ const Page = () => {
                         Pedro Sanches
                     </Heading>
                     <p>Digital Craftsman ( Developer / 3D Modeler / Designer )</p>
+                </Box>
+                <Box
+                    flexShrink={0}
+                    mt={{base: 4, md: 0 }}
+                    ml={{md: 6}}
+                    align="center"
+                >
+                    <Image 
+                        borderColor="whiteAlpha.800"
+                        borderWidth={ 2 }
+                        borderStyle="solid"
+                        maxWidth="100px"
+                        display="inline-block"
+                        borderRadius="full"
+                        src="/images/avatar.png"
+                        alt="profile Image"
+                    />
                 </Box>
             </Box>
         </Container>
