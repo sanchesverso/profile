@@ -7,7 +7,7 @@ const Main = ({ children }) => {
     return (
         <Box as="main" pb={8}>
            <Head>
-            <meta name='viewport' content='width=device-width, inicial-scale=1'></meta>
+            <meta name='viewport' content='width=device-width, initial-scale=1'></meta>
             <title> Pedro Sanches - Homepage</title>
            </Head>
 
