@@ -7,7 +7,7 @@ const Page = () => {
             What&apos;s up? I&apos;m a mobile developer specializing in web3!
             </Box>
             <Box display={{ md: 'flex' }}>
-                <Box flexGrou={1}>
+                <Box flexGrow={1}>
                     <Heading as="h2" variant="page-title">
                         Pedro Sanches
                     </Heading>
