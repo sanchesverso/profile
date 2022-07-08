@@ -20,7 +20,7 @@ const Page = () => {
             borderRadius="lg" 
             bg={useColorModeValue('whiteAlpha.500', 'whiteAplha.200')}
             p={3} 
-            mb={6} 
+            mb={6}
             align="center">
                 What&apos;s up? I&apos;m a mobile developer specializing in web3!
             </Box>
@@ -44,7 +44,7 @@ const Page = () => {
                         maxWidth="100px"
                         display="inline-block"
                         borderRadius="full"
-                        src="/images/avatar.png"
+                        src="/images/logo.svg"
                         alt="profile Image"
                     />
                 </Box>
@@ -54,9 +54,20 @@ const Page = () => {
                     Work
                 </Heading>
                 <Paragraph>
-                Sanches is a Senior Mobile Developer who has been working at Accenture Brazil for 7 years, where he has already participated in the active development of 10 projects, and occasional help in another 5 projects. During this period, I was able to learn new technologies and increase my range of activities. I started acting as a tech leader in 2018 and in 2020 as a team leader where I am currently leading 3 squads.                </Paragraph>
+                Specialist in custom application development, he joined Accenture in 2016.
+                <br/>
+                I&apos;ve been working as Team Lead for a financial solutions client preparing a team of a-players to
+                create the best solutions together with the product team and scale the applications to over
+                600,000 users.
+                <br/>
+                Experience in team leadership, people management, agile development, complex systems analysis,
+                architecture design, process automation, evangelist of the DevOps culture.
+                <br/>
+                Over these 6 years, he participated in the delivery of 11 projects serving 8 clients in the
+                agribusiness, telecom, consumer goods, finance solutions and resources segments.
+                </Paragraph>
                 <Box align="center" my={4}>
-                    <NextLink href="/works">
+                    <NextLink href="/works" passHref scroll={false}>
                         <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                             My Portfolio
                         </Button>
