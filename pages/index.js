@@ -12,7 +12,7 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
-import Layout from "../components/layouts/articles"
+import Layout from "../components/layouts/article"
 
 const Page = () => {
     return (
@@ -70,7 +70,7 @@ const Page = () => {
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/works" passHref scroll={false}>
-                            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+                            <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
                                 My Portfolio
                             </Button>
                         </NextLink>
