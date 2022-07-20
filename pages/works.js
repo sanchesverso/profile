@@ -4,10 +4,12 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbFinanceSolutions from '../public/images/works/banking_eyecatch.png'
 import thumbNaturalResources from '../public/images/works/natural_resources_eyecatch.png'
-import thumbTelco from '../public/images/works/communications_and_media_eyecatch.png'
+import thumbNaturalResources1 from '../public/images/works/natural_resources_1_eyecatch.png'
+import thumbCommunicationsMedia from '../public/images/works/communications_and_media_eyecatch.png'
+import thumbCommunicationsMedia1 from '../public/images/works/communications_and_media_1_eyecatch.png'
 import thumbCustomerGoods from '../public/images/works/consumer_goods_and_services_eyecatch.png'
 import thumbAgribusiness from '../public/images/works/agribusiness_eyecatch.png'
-import Layout from '../components/layouts/articles'
+import Layout from '../components/layouts/article'
 
 const Works = () => (
       <Layout>
@@ -31,7 +33,7 @@ const Works = () => (
               <WorkGridItem
                 id="natural-resources-33120"
                 title="Large Natural Resources Company"
-                thumbnail={thumbNaturalResources}
+                thumbnail={thumbNaturalResources1}
               >
                 Worked as Tech Lead in creating a product for route control and employee management.
               </WorkGridItem>
@@ -51,7 +53,7 @@ const Works = () => (
               <WorkGridItem 
                 id="telco-62619" 
                 title="Large Telco Company"
-                thumbnail={thumbTelco} 
+                thumbnail={thumbCommunicationsMedia1} 
               >
                 As a Tech Lead, he led a team in the technology migration of a product intended for sales
                 and after-sales services for the client.
@@ -83,7 +85,7 @@ const Works = () => (
               <WorkGridItem 
                 id="telco-83117" 
                 title="Large Telco Company"
-                thumbnail={thumbTelco} 
+                thumbnail={thumbCommunicationsMedia} 
               >
                 Worked as Tech Lead in the creation of a product aimed at technical visits, using
                 geolocation service and push notifications.
