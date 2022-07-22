@@ -24,14 +24,14 @@ const Page = () => {
                 p={3} 
                 mb={6}
                 align="center">
-                    What&apos;s up? I&apos;m a mobile developer specializing in web3!
+                    What&apos;s up? I&apos;m passionate about the best web & mobile development technologies.
                 </Box>
                 <Box display={{ md: 'flex' }}>
                     <Box flexGrow={1}>
                         <Heading as="h2" variant="page-title">
                             Pedro Sanches
                         </Heading>
-                        <p>Digital Craftsman ( Developer / 3D Modeler / Designer )</p>
+                        <p>Digital Craftsman ( Web3 Blockchain Expert | Metaverse | Futurist | Software Engineer )</p>
                     </Box>
                     <Box
                         flexShrink={0}
@@ -40,13 +40,10 @@ const Page = () => {
                         align="center"
                     >
                         <Image 
-                            borderColor="whiteAlpha.800"
-                            borderWidth={ 2 }
-                            borderStyle="solid"
                             maxWidth="100px"
                             display="inline-block"
                             borderRadius="full"
-                            src="/images/logo.svg"
+                            src="/images/avatar.png"
                             alt="profile Image"
                         />
                     </Box>
