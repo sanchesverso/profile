@@ -9,17 +9,17 @@ import {
   import Layout from '../../components/layouts/article'
   
   const Work = () => (
-    <Layout title="Large Natural Resources Company">
+    <Layout title="Large National Agricultural Company">
       <Container>
-      <WorkImage src="/images/works/natural_resources_eyecatch.png" alt="Large Natural Resources Company" />
+      <WorkImage src="/images/works/agribusiness_eyecatch.png" alt="Large Natural Resources Company" />
         <Title>
-        Large Natural Resources Company <Badge>05/18/2020 - 06/30/2020</Badge>
+        Large National Agricultural Company <Badge>03/01/2018 - 09/30/2018</Badge>
         </Title>
         <P>
-          Worked as Tech Lead in creating a product responsible for requesting and managing daily reports according to user profiles.
-          The biggest challenges were Offline synchronization, structuring a lot of offline data, complex and custom UI components.          Participated in the planning, design, development, testing and delivery of the product.
-          Was responsible for designing the solution architecture
-          Assisted team members in implementing the architecture following the adopted design patterns.
+          Worked as Tech Lead led the team in creating a product integrated with Salesforce CRM, with super optimized offline synchronization capable of processing large loads of data from entities in minutes, focused on monitoring crops on farms.
+          Participated in the design, development, testing and delivery of the product.
+          Helped in designing the solution architecture
+          Assisted team members in implementing the architecture following good practices and adopted design patterns.
           Continuously improved code quality, maintainability and readability.
           Prepared knowledge transfer documentation.
         </P>

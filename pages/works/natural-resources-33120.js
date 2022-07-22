@@ -11,13 +11,14 @@ import {
   const Work = () => (
     <Layout title="Large Natural Resources Company">
       <Container>
-      <WorkImage src="/images/works/natural_resources_eyecatch.png" alt="Large Natural Resources Company" />
+      <WorkImage src="/images/works/natural_resources_1_eyecatch.png" alt="Large Natural Resources Company" />
         <Title>
-        Large Natural Resources Company <Badge>05/18/2020 - 06/30/2020</Badge>
+        Large Natural Resources Company <Badge>03/02/2020 - 03/31/2020</Badge>
         </Title>
         <P>
-          Worked as Tech Lead in creating a product responsible for requesting and managing daily reports according to user profiles.
-          The biggest challenges were Offline synchronization, structuring a lot of offline data, complex and custom UI components.          Participated in the planning, design, development, testing and delivery of the product.
+          Worked as Tech Lead in creating a product for route control and employee management.
+          The biggest challenge was the business rules.
+          Participated in the design, development, testing and delivery of the product.
           Was responsible for designing the solution architecture
           Assisted team members in implementing the architecture following the adopted design patterns.
           Continuously improved code quality, maintainability and readability.

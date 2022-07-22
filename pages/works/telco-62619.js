@@ -9,19 +9,21 @@ import {
   import Layout from '../../components/layouts/article'
   
   const Work = () => (
-    <Layout title="Large Natural Resources Company">
+    <Layout title="Large Telco Company">
       <Container>
-      <WorkImage src="/images/works/natural_resources_eyecatch.png" alt="Large Natural Resources Company" />
+      <WorkImage src="/images/works/communications_and_media_1_eyecatch.png" alt="Large Natural Resources Company" />
         <Title>
-        Large Natural Resources Company <Badge>05/18/2020 - 06/30/2020</Badge>
+        Large Telco Company <Badge>10/01/2018 - 06/26/2019</Badge>
         </Title>
         <P>
-          Worked as Tech Lead in creating a product responsible for requesting and managing daily reports according to user profiles.
-          The biggest challenges were Offline synchronization, structuring a lot of offline data, complex and custom UI components.          Participated in the planning, design, development, testing and delivery of the product.
-          Was responsible for designing the solution architecture
-          Assisted team members in implementing the architecture following the adopted design patterns.
+          Worked as Tech Lead, he led a team in the technology migration of a product intended for sales and after-sales services for the client.
+          Participated in the design, development, testing and delivery of the product.
+          Helped design the solution architecture
+          Assisted team members in implementing the architecture following best practices and adopted design patterns.
           Continuously improved code quality, maintainability and readability.
-          Prepared knowledge transfer documentation.
+          Closely followed the testing and approval of the product.
+          Participated in on-site meetings and design thinking sessions with clients.
+          Product brought great financial results to the customer a few months later.
         </P>
         <List ml={4} my={4}>
           <ListItem>

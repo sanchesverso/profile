@@ -45,8 +45,7 @@ const Works = () => (
                 title="Finance Solutions Company"
                 thumbnail={thumbFinanceSolutions}
               >
-                Worked as a senior developer on creating a product aimed at customer collaborators with
-                strategic features.
+                Participated in a squad at the client as a senior developer where I helped in the technology migration of a product aimed at the client&apos;s employees and strategic features.
               </WorkGridItem>
             </Section>
             <Section delay={0.1}>
