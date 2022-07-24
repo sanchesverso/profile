@@ -13,6 +13,7 @@ import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from "../components/layouts/article"
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoTwitch } from 'react-icons/io5'
 
 const Page = () => {
     return (
@@ -106,6 +107,41 @@ const Page = () => {
                         3D Modeling
                         </Link>.
                     </Paragraph>
+                </Section>
+
+                <Section delay={0.3}>
+                    <Heading as="h3" variant="section-title">
+                        On the web
+                    </Heading>
+                    <Link href="https://github.com/sanchesverso" target="_blank">
+                    <Button
+                        variant="unstyled"
+                        colorScheme="yellow"
+                        leftIcon={<IoLogoGithub />}
+                    />
+                    </Link>
+                    <Link href="https://twitter.com/sanchesverso" target="_blank">
+                    <Button
+                        variant="unstyled"
+                        colorScheme="yellow"
+                        leftIcon={<IoLogoTwitter />}
+                    />
+                    </Link>
+                    <Link href="https://www.twitch.tv/sanchesverso" target="_blank">
+                    <Button
+                        variant="unstyled"
+                        colorScheme="yellow"
+                        leftIcon={<IoLogoTwitch />}
+                    />
+                    </Link>
+                    <Link href="https://instagram.com/sanchesverso" target="_blank">
+                    <Button
+                        variant="unstyled"
+                        colorScheme="yellow"
+                        leftIcon={<IoLogoInstagram />}
+                    />
+                    </Link>
+                        @sanchesverso
                 </Section>
             </Container>
         </Layout>

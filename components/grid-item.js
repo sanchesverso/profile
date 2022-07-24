@@ -13,10 +13,9 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
             loading="lazy"
             />
             <LinkOverlay href={href} target="_blank">
-                <Text fontSize={14}>
-                    {children}
-                </Text>
+            <Text mt={2}>{title}</Text>
             </LinkOverlay>
+            <Text fontSize={14}>{children}</Text>
         </LinkBox>
     </Box>
 )
