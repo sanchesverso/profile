@@ -32,7 +32,7 @@ const Page = () => {
                         <Heading as="h2" variant="page-title">
                             Pedro Sanches
                         </Heading>
-                        <p>Digital Craftsman ( Web3 Blockchain Expert | Metaverse | Futurist | Software Engineer )</p>
+                        <p>Digital Craftsman ( Web3 Blockchain Enthusiast | Metaverse | Futurist | Software Engineer )</p>
                     </Box>
                     <Box
                         flexShrink={0}
@@ -97,13 +97,13 @@ const Page = () => {
                     </Heading>
                     <Paragraph>
                         Family, Cars, Music, Football, Basketball, Poker,
-                        Fishing, Information security, 
+                        Fishing, Information Security, 
                         {' '} 
-                        <Link href="">
+                        <Link href="https://github.com/sanchesverse" target="_blank">
                         Programming
                         </Link>, and
                         {' '} 
-                        <Link href="">
+                        <Link href="https://www.youtube.com/channel/UCPeVqHjpa3ksnhuuqx25BAg" target="_blank">
                         3D Modeling
                         </Link>.
                     </Paragraph>
@@ -113,7 +113,7 @@ const Page = () => {
                     <Heading as="h3" variant="section-title">
                         On the web
                     </Heading>
-                    <Link href="https://github.com/sanchesverso" target="_blank">
+                    <Link href="https://github.com/sanchesverse" target="_blank">
                     <Button
                         variant="unstyled"
                         colorScheme="yellow"
