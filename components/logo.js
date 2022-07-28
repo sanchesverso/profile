@@ -13,21 +13,21 @@ const LogoBox = styled.span`
     padding: 10px;
 
     &:hover img {
-        transform: rotate(20deg);
+        transform: rotate(-20deg);
     }
 `
 
 const Logo = () => {
-    const avatarImg = `/images/avatar${useColorModeValue('', '-dark')}.png`
+    const avatarImg = `/images/logo${useColorModeValue('', '-dark')}.svg`
 
     return (
         <Link href="/">
             <a>
                 <LogoBox>
-                    <Image src={avatarImg} width={20} height={20} alt="logo" />
+                    <Image src={avatarImg} width={25} height={25} alt="logo" />
                     <Text
                     color={useColorModeValue('gray.800', 'whiteAplha.900')}
-                    fontFamily='M PLUS ROUNDED 1c'
+                    fontFamily="'M PLUS ROUNDED 1c'"
                     fontWeight="bold"
                     ml={3}
                     >

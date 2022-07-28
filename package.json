@@ -1,7 +1,7 @@
 {
-  "name": "sanches",
+  "name": "pedrosanches",
   "version": "1.0.0",
-  "description": "Sanchesverso",
+  "description": "Pedro Sanches | Web3 Blockchain Expert | Metaverse | Futurist | Software Engineer",
   "directories": {
     "lib": "lib"
   },
@@ -15,6 +15,7 @@
   "author": "Pedro Sanches<contato@pedrosanches.com.br>",
   "license": "MIT",
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.4",
     "@chakra-ui/react": "^2.2.1",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
