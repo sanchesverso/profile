@@ -1,10 +1,11 @@
 
-# Profile Website
+# Pedro Sanches Profile
 
-Creating a portfolio website using Next.js, Chakra UI, Framer Motion and Three.js
+Creating a profile website using Next.js, Chakra UI, Framer Motion and Three.js
 
+[https://www.pedrosanches.com.br/](https://www.pedrosanches.com.br/)
 
-## 📜 Functionalities
+## ⚗️ Functionalities
 
 - Dark and light themes
 - 3D Modeling with Three.js
@@ -14,19 +15,40 @@ Creating a portfolio website using Next.js, Chakra UI, Framer Motion and Three.j
 - Navigation bar
 - Works page
 - Work detail pages
-- Posts page
 - Social media links
 
+## ⚔️ Project structure
+
+```
+$PROJECT_ROOT
+│   # Page files
+├── pages
+│   # React component files
+├── components
+│   # Non-react modules
+├── lib
+│   # Static files for images and 3d model file
+└── public
+```
 
 ## 🏹 Used stack
 
-**React** - A javaScript library for building UIs
+- [Next.js](https://nextjs.org/) - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
+- [Chakra UI](https://chakra-ui.com/) - A simple, modular and accessible component library for React
+- [Three.js](https://threejs.org/) - 3D library for JavaScript
+- [Framer Motion](https://www.framer.com/motion/) - An animation library for React
 
-**Next.js** - A React framework with hybrid statc & server rendering, and route pre-fetching, etc.
+---
 
-**Chakra UI** - A simple, modular and acessible component library for React
+## 📜 License
 
-**Framer Mottion** - An animation library for React
+MIT License.
 
-**Three,js** - 3D library for JavaScript
+You can create your own profile for free without notifying me by forking this project under the following conditions:
+
+- Do not use the images
+- Do not use the 3D Modeling
+- Do not use the same text content
+
+Check out [LICENSE](./LICENSE) for more detail.
 
