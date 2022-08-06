@@ -113,7 +113,7 @@ const Page = () => {
                     <Heading as="h3" variant="section-title">
                         On the web
                     </Heading>
-                    <Link href="https://github.com/sanchesverse" target="_blank">
+                    <Link href="https://github.com/sanchesverso" target="_blank">
                     <Button
                         variant="unstyled"
                         colorScheme="yellow"
