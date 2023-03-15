@@ -1,151 +1,168 @@
-import NextLink from "next/link"
-import { 
-    Container, 
-    Box,
-    Button,
-    Heading, 
-    Image,
-    Link,
-    useColorModeValue
- } from '@chakra-ui/react'
+import NextLink from 'next/link'
+import {
+  Container,
+  Box,
+  Button,
+  Heading,
+  Image,
+  Link,
+  useColorModeValue
+} from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
-import Layout from "../components/layouts/article"
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoTwitch } from 'react-icons/io5'
+import Layout from '../components/layouts/article'
+import {
+  IoLogoTwitter,
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoTwitch
+} from 'react-icons/io5'
 
 const Page = () => {
-    return (
-        <Layout>
-            <Container>
-                <Box 
-                borderRadius="lg" 
-                bg={useColorModeValue('whiteAlpha.500', 'whiteAplha.200')}
-                p={3} 
-                mb={6}
-                align="center">
-                    What&apos;s up? I&apos;m passionate about the best web & mobile development technologies.
-                </Box>
-                <Box display={{ md: 'flex' }}>
-                    <Box flexGrow={1}>
-                        <Heading as="h2" variant="page-title">
-                            Pedro Sanches
-                        </Heading>
-                        <p>Digital Craftsman ( Web3 Blockchain Enthusiast | Metaverse | Futurist | Software Engineer )</p>
-                    </Box>
-                    <Box
-                        flexShrink={0}
-                        mt={{base: 4, md: 0 }}
-                        ml={{md: 6}}
-                        align="center"
-                    >
-                        <Image 
-                            maxWidth="100px"
-                            display="inline-block"
-                            borderRadius="full"
-                            src="/images/avatar.png"
-                            alt="profile Image"
-                        />
-                    </Box>
-                </Box>
-                <Section delay={0.1}>
-                    <Heading as="h3" variant="section-title">
-                        Work
-                    </Heading>
-                    <Paragraph>
-                    Specialist in custom application development, he joined Accenture in 2016.
-                    <br/>
-                    I&apos;ve been working as Team Lead for a financial solutions client preparing a team of a-players to
-                    create the best solutions together with the product team and scale the applications to over
-                    600,000 users.
-                    <br/>
-                    Experience in team leadership, people management, agile development, complex systems analysis,
-                    architecture design, process automation, evangelist of the DevOps culture.
-                    <br/>
-                    Over these 6 years, he participated in the delivery of 11 projects serving 8 clients in the
-                    agribusiness, telecom, consumer goods, finance solutions and resources segments.
-                    </Paragraph>
-                    <Box align="center" my={4}>
-                        <NextLink href="/works" passHref scroll={false}>
-                            <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
-                                My Portfolio
-                            </Button>
-                        </NextLink>
-                    </Box>
-                </Section>
-                <Section delay={0.2}>
-                    <Heading as="h3" variant="section-title">
-                        Bio
-                    </Heading>
-                    <BioSection>
-                        <BioYear>1986</BioYear>
-                        Born in São Paulo, SP.
-                    </BioSection>
-                    <BioSection>
-                        <BioYear>2012</BioYear>
-                        Completed the Postgraduate Program in Information Security at the Union of Brazilian Institutes of Technology university.
-                    </BioSection>
-                    <BioSection>
-                        <BioYear>2016 to present</BioYear>
-                        Programming has always been a hobby, but the key turned when I started working at Accenture Brasil as a Full iOS Developer.
-                    </BioSection>
-                </Section>
-                <Section delay={0.3}>
-                    <Heading as="h3" variant="section-title">
-                        I &#10084;
-                    </Heading>
-                    <Paragraph>
-                        Family, Cars, Music, Football, Basketball, Poker,
-                        Fishing, Information Security, 
-                        {' '} 
-                        <Link href="https://github.com/sanchesverse" target="_blank">
-                        Programming
-                        </Link>, and
-                        {' '} 
-                        <Link href="https://www.youtube.com/channel/UCPeVqHjpa3ksnhuuqx25BAg" target="_blank">
-                        3D Modeling
-                        </Link>.
-                    </Paragraph>
-                </Section>
+  return (
+    <Layout>
+      <Container>
+        <Box
+          borderRadius="lg"
+          bg={useColorModeValue('whiteAlpha.500', 'whiteAplha.200')}
+          p={3}
+          mb={6}
+          align="center"
+        >
+          Hey there! I&apos;m passionate about the latest web and mobile
+          development technologies. Let&apos;s connect and chat more about all
+          the exciting things happening in this space!
+        </Box>
+        <Box display={{ md: 'flex' }}>
+          <Box flexGrow={1}>
+            <Heading as="h2" variant="page-title">
+              Pedro Sanches
+            </Heading>
+            <p>
+              Digital Craftsman ( Web3 Blockchain Enthusiast | Metaverse |
+              Futurist | Software Engineer )
+            </p>
+          </Box>
+          <Box
+            flexShrink={0}
+            mt={{ base: 4, md: 0 }}
+            ml={{ md: 6 }}
+            align="center"
+          >
+            <Image
+              maxWidth="100px"
+              display="inline-block"
+              borderRadius="full"
+              src="/images/avatar.png"
+              alt="profile Image"
+            />
+          </Box>
+        </Box>
+        <Section delay={0.1}>
+          <Heading as="h3" variant="section-title">
+            Work
+          </Heading>
+          <Paragraph>
+            Specialist in custom application development, he joined Accenture in
+            2016.
+            <br />
+            I&apos;ve been working as Team Lead for a financial solutions client
+            preparing a team of a-players to create the best solutions together
+            with the product team and scale the applications to over 600,000
+            users.
+            <br />
+            Experience in team leadership, people management, agile development,
+            complex systems analysis, architecture design, process automation,
+            evangelist of the DevOps culture.
+            <br />
+            Over these 6 years, he participated in the delivery of 11 projects
+            serving 8 clients in the agribusiness, telecom, consumer goods,
+            finance solutions and resources segments.
+          </Paragraph>
+          <Box align="center" my={4}>
+            <NextLink href="/works" passHref scroll={false}>
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
+                My Portfolio
+              </Button>
+            </NextLink>
+          </Box>
+        </Section>
+        <Section delay={0.2}>
+          <Heading as="h3" variant="section-title">
+            Bio
+          </Heading>
+          <BioSection>
+            <BioYear>1986</BioYear>
+            Born in São Paulo, SP.
+          </BioSection>
+          <BioSection>
+            <BioYear>2012</BioYear>
+            Completed the Postgraduate Program in Information Security at the
+            Union of Brazilian Institutes of Technology university.
+          </BioSection>
+          <BioSection>
+            <BioYear>2016 to present</BioYear>
+            Programming has always been a hobby, but the key turned when I
+            started working at Accenture Brasil as a Full iOS Developer.
+          </BioSection>
+        </Section>
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            I &#10084;
+          </Heading>
+          <Paragraph>
+            Family, My Car, Music, Football, Basketball, Poker, Fishing,
+            Information Security,{' '}
+            <Link href="https://github.com/sanchesverso" target="_blank">
+              Programming
+            </Link>
+            , and{' '}
+            <Link href="https://www.youtube.com/@sanchesverso" target="_blank">
+              3D Modeling
+            </Link>
+            .
+          </Paragraph>
+        </Section>
 
-                <Section delay={0.3}>
-                    <Heading as="h3" variant="section-title">
-                        On the web
-                    </Heading>
-                    <Link href="https://github.com/sanchesverso" target="_blank">
-                    <Button
-                        variant="unstyled"
-                        colorScheme="yellow"
-                        leftIcon={<IoLogoGithub />}
-                    />
-                    </Link>
-                    <Link href="https://twitter.com/sanchesverso" target="_blank">
-                    <Button
-                        variant="unstyled"
-                        colorScheme="yellow"
-                        leftIcon={<IoLogoTwitter />}
-                    />
-                    </Link>
-                    <Link href="https://www.twitch.tv/sanchesverso" target="_blank">
-                    <Button
-                        variant="unstyled"
-                        colorScheme="yellow"
-                        leftIcon={<IoLogoTwitch />}
-                    />
-                    </Link>
-                    <Link href="https://instagram.com/sanchesverso" target="_blank">
-                    <Button
-                        variant="unstyled"
-                        colorScheme="yellow"
-                        leftIcon={<IoLogoInstagram />}
-                    />
-                    </Link>
-                        @sanchesverso
-                </Section>
-            </Container>
-        </Layout>
-    )
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            On the web
+          </Heading>
+          <Link href="https://github.com/sanchesverso" target="_blank">
+            <Button
+              variant="unstyled"
+              colorScheme="yellow"
+              leftIcon={<IoLogoGithub />}
+            />
+          </Link>
+          <Link href="https://twitter.com/sanchesverso" target="_blank">
+            <Button
+              variant="unstyled"
+              colorScheme="yellow"
+              leftIcon={<IoLogoTwitter />}
+            />
+          </Link>
+          <Link href="https://www.twitch.tv/sanchesverso" target="_blank">
+            <Button
+              variant="unstyled"
+              colorScheme="yellow"
+              leftIcon={<IoLogoTwitch />}
+            />
+          </Link>
+          <Link href="https://instagram.com/sanchesverso" target="_blank">
+            <Button
+              variant="unstyled"
+              colorScheme="yellow"
+              leftIcon={<IoLogoInstagram />}
+            />
+          </Link>
+          @sanchesverso
+        </Section>
+      </Container>
+    </Layout>
+  )
 }
 
 export default Page
