@@ -5,7 +5,8 @@ import {
   Text,
   Container,
   Divider,
-  Button
+  Button,
+  Link
 } from '@chakra-ui/react'
 
 const NotFound = () => {
@@ -15,9 +16,9 @@ const NotFound = () => {
       <Text>Come back in a little while or return to the homepage.</Text>
       <Divider my={6} />
       <Box my={6} align="center">
-        <NextLink href="/" passHref>
+        <Link as={NextLink} href="/" passHref target="_blank">
           <Button colorScheme="yellow">Return to home</Button>
-        </NextLink>
+        </Link>
       </Box>
     </Container>
   )
