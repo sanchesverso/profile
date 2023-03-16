@@ -20,21 +20,19 @@ const Logo = () => {
   const avatarImg = `/images/logo${useColorModeValue('', '-dark')}.svg`
 
   return (
-    <Link href="/">
-      <a>
-        <LogoBox>
-          <Image src={avatarImg} width={25} height={25} alt="logo" />
-          <Text
-            color={useColorModeValue('gray.800', 'whiteAplha.900')}
-            fontFamily="'M PLUS ROUNDED 1c'"
-            fontWeight="bold"
-            ml={3}
-          >
-            Pedro Sanches
-          </Text>
-        </LogoBox>
-      </a>
-    </Link>
+    <LogoBox>
+      <Image src={avatarImg} width={25} height={25} alt="logo" />
+      <Link href="/">
+        <Text
+          color={useColorModeValue('gray.800', 'whiteAplha.900')}
+          fontFamily="'M PLUS ROUNDED 1c'"
+          fontWeight="bold"
+          ml={3}
+        >
+          Pedro Sanches
+        </Text>
+      </Link>
+    </LogoBox>
   )
 }
 
